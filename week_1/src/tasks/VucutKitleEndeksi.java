@@ -2,7 +2,7 @@ package tasks;
 
 import java.util.Scanner;
 
-public class vucutKitleEndeksi {
+public class VucutKitleEndeksi {
     public static void main(String[] args) {
         Scanner gir = new Scanner(System.in);
         System.out.print("Boyunuzu giriniz : ");

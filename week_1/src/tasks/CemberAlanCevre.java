@@ -2,7 +2,7 @@ package tasks;
 
 import java.util.Scanner;
 
-public class cemberAlanCevre {
+public class CemberAlanCevre {
     public static void main(String[] args) {
         Scanner gir = new Scanner(System.in);
         System.out.print("Yariçap bilgisini giriniz :");

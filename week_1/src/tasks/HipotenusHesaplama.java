@@ -2,7 +2,7 @@ package tasks;
 
 import java.util.Scanner;
 
-public class hipotenusHesaplama {
+public class HipotenusHesaplama {
     public static void main(String[] args) {
         int kenar1,kenar2;
         double kenar3;

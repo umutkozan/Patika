@@ -2,7 +2,7 @@ package tasks;
 
 import java.util.Scanner;
 
-public class taksimetre {
+public class Taksimetre {
     public static void main(String[] args) {
        double acilis = 10;
       Scanner kmGir = new Scanner(System.in);
