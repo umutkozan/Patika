@@ -24,9 +24,7 @@ public class ManavKasaProgrami {
         System.out.print("Patlıcan Kaç kilo ? : ");
         double patlicanKg = kiloGir.nextDouble();
         // toplam tutarı hesaplıyoruz ve yazdırıyoruz.
-        double toplamTutar = (armut * armutKg + elma * elmaKg +
-                domates*domatesKg + muz*muzKg +
-                patlican*patlicanKg);
+        double toplamTutar = (armut * armutKg + elma * elmaKg +domates*domatesKg + muz*muzKg +patlican*patlicanKg);
         System.out.println("Toplam tutar :" +toplamTutar);
     }
 }
