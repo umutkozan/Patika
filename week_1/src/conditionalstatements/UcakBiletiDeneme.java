@@ -2,7 +2,7 @@ package conditionalstatements;
 
 import java.util.Scanner;
 
-public class UcakBileti {
+public class UcakBiletiDeneme {
 
         public static void main(String[] args) {
             //Değişken yaratımı:
