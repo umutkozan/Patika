@@ -19,6 +19,8 @@ public class FlightTicketPriceCalculator {
 
         if (km < 0 || years < 0 || travellerTips < 1 || travellerTips > 2) {
             System.out.println("Hatalı Veri Girdiniz !");
+            System.exit(0);
+
         } else {
             double totalPrice = km * kmPrice;
 
@@ -32,7 +34,6 @@ public class FlightTicketPriceCalculator {
                     totalPrice *= 0.7; // %30 indirim
                 }
                 System.out.println("İndirimli Bilet fiyatı: " + totalPrice);
-
             } else if (travellerTips == 1) {
                 if (years < 12) {
                     totalPrice *= 0.5; // %50 indirim
