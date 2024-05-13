@@ -1,7 +1,7 @@
 // 2. Projede açıklayıcı yorum satırları ya da bir projeye bir projeyi özetleyen bir readme dosyası eklenmiş mi? (5 puan
 // 3. Kodlama düzeni ve kodun okunabilirliği yeterli mi? (10 puan)
 // 4. Kodda doğru bir şekilde girinti kullanılmış mı? (5 puan)
-package Mayin_Tarlasi;
+package MinesweeperGame;
 
 import java.util.Random;
 import java.util.Scanner;

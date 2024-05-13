@@ -1,4 +1,4 @@
-package Mayin_Tarlasi;
+package MinesweeperGame;
 
 import java.util.Scanner;
 
