@@ -25,12 +25,6 @@ Tüm mayınsız hücreler açıldığında veya bir mayına basıldığında oyu
 
 Satır ve sütun sayılarını belirtirken, oyun alanı boyutlarına uygun olmalıdır:
 
-Kullanıcıdan alınan satır ve sütun sayıları, oyun alanının boyutlarına uygun olmalıdır. 
-
-Örneğin, kullanıcı 5x8 gibi geçerli bir boyut girebilir, ancak 0 veya negatif sayılar veya çok büyük değerler girerse uyarı mesajı gösterilir.
-
-Oyun sırasında, kullanıcının girdiği koordinatlar oyun alanının sınırları içinde olmalıdır:
-
 Kullanıcının her hamlesinde girdiği satır ve sütun koordinatları, oyun alanının sınırları içinde olmalıdır. Örneğin, eğer kullanıcı 5x5 boyutunda bir oyun alanı seçtiyse ve 6,2 gibi geçersiz bir koordinat girerse, uyarı mesajı gösterilir.
 Her hamle sonrasında oyun alanı güncellenir:
 
