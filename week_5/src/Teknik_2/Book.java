@@ -67,15 +67,14 @@ public class Book implements Comparable<Book> {
         Book book1 = new Book("The catcher in the Rye ", 277, "J.D. Salinger", "1951");
         Book book2 = new Book("To kill a Mockingbird", 281, "Harper Lee", "1960");
         Book book3 = new Book("1984", 328, "George Orwell", "1949");
-        Book book4 = new Book("Pride and Prejudice", 279, "Jane Austen", "1813");
-        Book book5 = new Book("The Great Gatsby", 180, "F. Scott Fitzgerald", "1925");
-        Book book6 = new Book("ABC",1234,"Manisa","1930");
+        Book book4 = new Book("The Great Gatsby", 180, "F. Scott Fitzgerald", "1925");
+        Book book5 = new Book("ABC",1234,"Manisa","1930");
         Set<Book> booksByTitle = new TreeSet<>();
         booksByTitle.add(book1);
         booksByTitle.add(book2);
         booksByTitle.add(book3);
+        booksByTitle.add(book4);
         booksByTitle.add(book5);
-        booksByTitle.add(book6);
         System.out.println("Books sorted by title : ");
         for (Book book : booksByTitle) {
             System.out.println(book);
