@@ -64,11 +64,11 @@ public class Book implements Comparable<Book> {
 
     public static void main(String[] args) {
         //Kitap nesnelerinin oluşturulması
-        Book book1 = new Book("The catcher in the Rye ", 277, "J.D. Salinger", "1951");
-        Book book2 = new Book("To kill a Mockingbird", 281, "Harper Lee", "1960");
-        Book book3 = new Book("1984", 328, "George Orwell", "1949");
-        Book book4 = new Book("The Great Gatsby", 180, "F. Scott Fitzgerald", "1925");
-        Book book5 = new Book("ABC",1234,"Manisa","1930");
+       Book book1 = new Book("Kürk Mantolu Madonna", 177, "Sabahattin Ali", "1943");
+       Book book2 = new Book("İnce Memed", 419, "Yaşar Kemal", "1955");
+       Book book3 = new Book("Tutunamayanlar", 724, "Oğuz Atay", "1971");
+       Book book4 = new Book("Saatleri Ayarlama Enstitüsü", 361, "Ahmet Hamdi Tanpınar", "1961");
+       Book book5 = new Book("ABC", 1234, "Manisa", "1930");
         Set<Book> booksByTitle = new TreeSet<>();
         booksByTitle.add(book1);
         booksByTitle.add(book2);
