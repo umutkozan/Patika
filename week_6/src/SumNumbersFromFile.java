@@ -7,16 +7,19 @@ public class SumNumbersFromFile {
         String filePath = "C:\\Users\\user\\Desktop\\patika\\camp\\week_6\\src\\numbers.txt"; // Dosya yolu
         int sum = 0;
 
+        // Dosya okuma işlemini try-with-resources bloğu içinde gerçekleştiriyoruz
         try (BufferedReader br = new BufferedReader(new FileReader(filePath))) {
             String line;
+            // Dosyayı satır satır okuyup, her satırı tam sayıya dönüştürüyoruz
             while ((line = br.readLine()) != null) {
-                int number = Integer.parseInt(line); // Satırı tam sayıya dönüştür
-                sum += number; // Sayıyı toplama ekle
+                int number = Integer.parseInt(line);
+                sum += number; // Sayıyı toplam değişkenine ekliyoruz
             }
         } catch (IOException e) {
-            e.printStackTrace();
+            e.printStackTrace(); // Dosya okuma sırasında oluşabilecek hataları yakalayıp yazdırıyoruz
         }
 
-        System.out.println("Toplam: " + sum); // Sonucu ekrana yazdır
+        // Toplam sonucu ekrana yazdırıyoruz
+        System.out.println("Toplam: " + sum);
     }
 }
