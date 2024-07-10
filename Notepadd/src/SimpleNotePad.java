@@ -25,9 +25,9 @@ public class SimpleNotePad {
         System.out.print("Bir metin girin: ");
         String metin = scanner.nextLine();
 
-        // Metni dosyaya yaz
-        try (PrintWriter printWriter = new PrintWriter(new FileWriter(FILE_PATH))) {
-            printWriter.print(metin);
+        // Metni dosyaya ekle (append mode) ve yeni satıra geç
+        try (PrintWriter printWriter = new PrintWriter(new FileWriter(FILE_PATH, true))) {
+            printWriter.println(metin); // Yeni metni dosyanın sonuna ekle ve alt satıra geç
         } catch (IOException e) {
             e.printStackTrace();
         }
